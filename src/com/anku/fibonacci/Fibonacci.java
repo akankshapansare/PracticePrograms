@@ -3,6 +3,7 @@ package com.anku.fibonacci;
 class Fibonacci {
     public static void main(String[] args) {
         int a = 1, b, c = 1;
+        System.out.println("Fibonacci numbers:");
         System.out.println(a);
 
         System.out.println(c);
