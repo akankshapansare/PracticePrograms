@@ -17,9 +17,9 @@ class Prime {
             }
         }
         if (d == 0) {
-            System.out.println("Given number is a prime number " + c);
+            System.out.println(c + " is a prime number.");
         } else {
-            System.out.println("Given number is not a prime number " + c);
+            System.out.println(c + " is not a prime number.");
         }
     }
 }
