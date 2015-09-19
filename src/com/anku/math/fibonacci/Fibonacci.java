@@ -1,4 +1,4 @@
-package com.anku.fibonacci;
+package com.anku.math.fibonacci;
 
 class Fibonacci {
     public static void main(String[] args) {

@@ -1,9 +1,8 @@
-package com.anku.matrix;
+package com.anku.math.matrix;
 
-class MatrixAddition {
+class MatrixMultiplication {
     public static void main(String[] args) {
-
-        int i, j;
+        int i, j, k;
         int[][] A = {{1, 2, 3}, {1, 0, 1}, {2, 0, 0}};
         System.out.println("matrix A is:");
 
@@ -23,13 +22,18 @@ class MatrixAddition {
             System.out.println();
         }
         int[][] C = new int[3][3];
-        System.out.println("Addition of matrix A and matrix B is:");
+        System.out.println("Multiplication of matrix A and matrix B is:");
+
         for (i = 0; i <= 2; i++) {
-            for (j = 0; j <= 2; j++) {
-                C[i][j] = A[i][j] + B[i][j];
-                System.out.print(C[i][j] + " ");
+            for (k = 0; k <= 2; k++) {
+                for (j = 0; j <= 2; j++) {
+                    C[i][k] = C[i][k] + A[i][j] * B[j][k];
+                }
+                System.out.print(C[i][k] + " ");
+
             }
             System.out.println();
         }
+
     }
 }

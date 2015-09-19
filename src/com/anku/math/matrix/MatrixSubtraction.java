@@ -1,4 +1,4 @@
-package com.anku.matrix;
+package com.anku.math.matrix;
 
 class MatrixSubtraction {
     public static void main(String[] args) {

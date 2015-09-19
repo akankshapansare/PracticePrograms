@@ -1,9 +1,9 @@
-package com.anku.even;
+package com.anku.math.odd;
 
-class Even {
+class Odd {
     public static void main(String[] args) {
-        int i = 2;
-        System.out.println("Even numbers:");
+        System.out.println("Odd numbers:");
+        int i = 1;
         System.out.println(i);
         for (int a = 0; a < 10; a++) {
             i = i + 2;

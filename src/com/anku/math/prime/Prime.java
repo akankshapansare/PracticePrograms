@@ -1,4 +1,4 @@
-package com.anku.prime;
+package com.anku.math.prime;
 
 import java.util.Scanner;
 
